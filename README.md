@@ -5,7 +5,7 @@ Made with the help of this guide: https://robertheaton.com/2018/06/12/programmin
 Result:
 
 <img width="700" height="467" alt="ascii-pineapple" src="https://github.com/user-attachments/assets/deb2c411-b3e1-4e87-85a0-026477224dd7" />
-<img width="2558" height="1438" alt="image" src="https://github.com/user-attachments/assets/60a2c7f1-9332-4e9f-a20b-67c0ef813660" />
+<img width="2428" height="1438" alt="image" src="https://github.com/user-attachments/assets/70c6745f-101e-4c3b-8776-fbbd7f1225ad" />
 
 
 
