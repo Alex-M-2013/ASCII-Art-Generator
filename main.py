@@ -4,6 +4,7 @@ print("Enter the path to the image you want to use:")
 image_path = input().strip().strip('"').strip("'")
 
 inputted_image = Image.open(image_path)
+inputted_image = inputted_image.convert("RGB")
 # print('Successfully loaded image!')
 
 
