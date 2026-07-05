@@ -62,3 +62,6 @@ for brightness in brightness_values_list: # For every brightness value in the im
     if characters_printed == inputted_image.width:
         print()
         characters_printed = 0
+
+# input() so when user runs .exe file it doesnt close immendiately
+input()
