@@ -19,18 +19,15 @@ pixel_data = inputted_image.get_flattened_data()
 # Create empty list for all the RGB tuple values converted to brightness values
 brightness_values_list = []
 
-# Use for loop to calcualte average brightness of tuples using the formula (R + G + B)/3
+# Use for loop to calcualte average brightness of tuples using the formula (0.2126 * r) + (0.7152 * g) + (0.0722 * b)
 # Create new variable 'pixel' and assign it to every tuple in pixel_data
 
 for pixel in pixel_data: # For every tuple/pixel in pixel_data
     
     # Gets the R, G and B values of every pixel, adds them and stores the result in added_rgb_values
-    # Here, (int(pixel[0]) gets the value of R in every pixel and converts it to an integer value so it can be added
-     
-    added_rgb_values = (int(pixel[0]) + int(pixel[1]) + int(pixel[2]))  # First step of formula (R + G + B)
+    # Here, (int(pixel[0]) gets the value of R in every pixel and converts it to an integer value
     
-    # Second step of formula: Divides (R + G + B) by 3 to get the average brightness of every pixel
-    brightness_values = added_rgb_values / 3 
+    brightness_values = ((0.2126 * (int(pixel[0]))) + (0.7152 * (int(pixel[1]))) + (0.0722 * (int(pixel[2])))) # formula (0.2126 * r) + (0.7152 * g) + (0.0722 * b)
     
     # Appends brightness_values onto the list created earlier 
     brightness_values_list.append(int(brightness_values))
