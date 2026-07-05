@@ -9,6 +9,7 @@ __pycache__/
 dist/
 build/
 *.exe
+main.dist/
 *.egg-info/
 
 # Virtual environments
