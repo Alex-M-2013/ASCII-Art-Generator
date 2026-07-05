@@ -12,7 +12,7 @@ Example Result:
 <img width="700" height="467" alt="ascii-pineapple" src="https://github.com/user-attachments/assets/deb2c411-b3e1-4e87-85a0-026477224dd7" />
 <img width="2428" height="1438" alt="image" src="https://github.com/user-attachments/assets/70c6745f-101e-4c3b-8776-fbbd7f1225ad" />
 
-More examples can be found here: 
+More examples can be found here: https://github.com/Alex-M-2013/ASCII-Art-Generator/tree/main/examples
 
 
 __Note:__ ~~This does not support user input, it only works with the image that is already in the folder. However, I might add user input in the future.~~ 
