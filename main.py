@@ -1,6 +1,9 @@
 from PIL import Image
 
-inputted_image = Image.open("ascii-pineapple.jpg")
+print("Enter the path to the image you want to use:")
+image_path = input().strip().strip('"').strip("'")
+
+inputted_image = Image.open(image_path)
 # print('Successfully loaded image!')
 
 

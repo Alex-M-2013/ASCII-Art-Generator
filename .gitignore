@@ -10,6 +10,8 @@ dist/
 build/
 *.exe
 main.dist/
+main.build/
+main.onefile-build/
 *.egg-info/
 
 # Virtual environments
