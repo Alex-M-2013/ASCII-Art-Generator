@@ -64,4 +64,4 @@ for brightness in brightness_values_list: # For every brightness value in the im
         characters_printed = 0
 
 # input() so when user runs .exe file it doesnt close immendiately
-input("Press any key to quit...")
+input("Press enter to quit...")
